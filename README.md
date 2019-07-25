@@ -40,5 +40,9 @@ kadai-weight-cpu.pth： 学習済みの重み．
 
 server.py： サーバーの立ち上げ．
 
+## 注意点
+表示される画像は実行毎に上書き保存されます．
+そのため，表示される画像を保持したい場合は適宜画像を保存する必要があります．
+
 ## 実行例
 ![実行例](https://user-images.githubusercontent.com/49013079/61851202-45a05e80-aef1-11e9-95d1-b51ce113a405.jpg)
