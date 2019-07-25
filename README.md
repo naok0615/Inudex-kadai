@@ -40,5 +40,5 @@ server.py： サーバーの立ち上げ．
 * opencv-python 4.1.0.25
 * Pillow 5.3.0
 
-## 例
-https://user-images.githubusercontent.com/49013079/61851202-45a05e80-aef1-11e9-95d1-b51ce113a405.jpg
+## 実行例
+![実行例](https://user-images.githubusercontent.com/49013079/61851202-45a05e80-aef1-11e9-95d1-b51ce113a405.jpg)
