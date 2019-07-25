@@ -25,7 +25,7 @@ Robot programming 2019 task
 * opencv-python 4.1.0.25
 * Pillow 5.3.0
 
-## ディレクトリの概要
+## ディレクトリ，プログラムについて
 inputdata/data： アップロードした画像が保存されるディレクトリ．
 
 static/images： 犬または猫の種類がペイントされた画像が保存されるディレクトリ．
