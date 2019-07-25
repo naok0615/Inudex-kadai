@@ -27,6 +27,11 @@ Robot programming 2019 task
 * opencv-python 4.1.0.25
 * Pillow 5.3.0
 
+## 動作確認
+* Linux ... 試していません
+* Windows ... 試していません
+* Mac ... macOS Mojave 10.14.5 で動作確認済み
+
 ## ディレクトリ，プログラムについて
 inputdata/data： アップロードした画像が保存されるディレクトリ．
 
