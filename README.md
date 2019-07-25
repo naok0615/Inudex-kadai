@@ -32,7 +32,7 @@ static/images： 犬または猫の種類がペイントされた画像が保存
 
 templates： webのデザイン． 
 
-Arial Unicode.ttf： ペイントに用いられる文字フォント．
+Arial Unicode.ttf： ペイントに用いる文字フォント．
 
 image_main.py： 犬と猫の種類識別と画像へのペイント．
 
