@@ -31,3 +31,6 @@ image_main.py： 犬と猫の種類識別と画像へのペイント．
 kadai-weight-cpu.pth： 学習済みの重み．
 
 server.py： サーバーの立ち上げ．
+
+## 環境
+* Python 3.7.1
