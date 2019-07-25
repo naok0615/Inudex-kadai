@@ -34,3 +34,8 @@ server.py： サーバーの立ち上げ．
 
 ## 環境
 * Python 3.7.1
+* Pytorch 1.0.0
+* Flask 1.0.2
+* numpy 1.15.4
+* opencv-python 4.1.0.25
+* Pillow 5.3.0
