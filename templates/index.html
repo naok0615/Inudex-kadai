@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<form action="/upload" method="post" enctype="multipart/form-data">
+  <input type="file" name="image" accept="image/png, image/jpeg">
+  <button type="submit">submit</button>
+</form>
+
+<img src="{{url_for('static', filename='images/kekka.jpg')}}" class="img-fluid" alt="Responsive image">
+
+{% endblock %}
