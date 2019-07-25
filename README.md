@@ -18,7 +18,7 @@ Robot programming 2019 task
 3. "ファイルを選択"から画像を選択するか"ファイルを選択"へ画像をドラッグ&ドロップすることで画像を選択します．
 4. "submit"ボタンを押すことでserver.pyを実行しているPCへ画像がアップロードされます．
 5. 約1秒後にアップロードした画像へ犬または猫の種類がペイントされた画像が表示されます．
-![ss](https://user-images.githubusercontent.com/49013079/61854441-0ece4680-aef9-11e9-8b5c-3a7801136908.png)
+![ss](https://user-images.githubusercontent.com/49013079/61854598-64a2ee80-aef9-11e9-93a8-49b4be560608.png)
 
 ## 環境
 * Python 3.7.1
