@@ -17,16 +17,16 @@ Robot programming 2019 task
 3. 約1秒後にアップロードした画像へ犬または猫の種類がペイントされた画像が表示されます．
 
 ## ディレクトリの概要
-inputdata/data：　アップロードした画像が保存されるディレクトリ．
+inputdata/data： アップロードした画像が保存されるディレクトリ．
 
 static/images： 犬または猫の種類がペイントされた画像が保存されるディレクトリ．
 
 templates： webのデザイン． 
 
-Arial Unicode.ttf：　ペイントに用いられる文字フォント．
+Arial Unicode.ttf： ペイントに用いられる文字フォント．
 
-image_main.py：　犬と猫の種類識別と画像へのペイント．
+image_main.py： 犬と猫の種類識別と画像へのペイント．
 
 kadai-weight-cpu.pth： 学習済みの重み．
 
-server.py：　サーバーの立ち上げ．
+server.py： サーバーの立ち上げ．
