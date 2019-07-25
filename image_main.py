@@ -5,29 +5,13 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.optim import lr_scheduler
 from torch.utils.data import Dataset
-import numpy as np
 import torchvision
 from torchvision import datasets, models, transforms
 from torchvision.transforms import ToTensor
-import matplotlib.pyplot as plt
-import time
-import os
-import copy
-from PIL import Image
-
-import tarfile
-import urllib
-from sklearn.model_selection import train_test_split
-import shutil
-
+import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 import cv2
-from datetime import datetime
-import random
-import string
-
-def random_str(n):
-    return ''.join([random.choice(string.ascii_letters + string.digits) for i in range(n)])
+import os
 
 def cnn_step(img):
     # input data
@@ -128,10 +112,7 @@ def cnn_step(img):
     draw.text(pos, writetext, font=font, fill='#FFF')
     print("save_img")
 
-    #SAVE_DIR = "./images/"
     SAVE_DIR = "./static/images/"
-    #dt_now = datetime.now().strftime("%Y_%m_%d%_H_%M_%S_") + random_str(5)
-    #save_path = os.path.join(SAVE_DIR, dt_now + ".jpg")
     save_path = os.path.join(SAVE_DIR, "kekka.jpg")
 
     img.save(save_path, 'JPEG', quality=100, optimize=True)
